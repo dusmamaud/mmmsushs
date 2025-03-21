@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Profile - XO Music</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cabin', sans-serif;
+        }
+
+        :root {
+            --primary-color: #1db954;
+            --primary-dark: #1aa34a;
+            --background: #121212;
+            --surface: #282828;
+            --surface-light: #3e3e3e;
+            --text-primary: #ffffff;
+            --text-secondary: #b3b3b3;
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 1.5rem;
+            --spacing-lg: 2rem;
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Artist Header Section */
+        .artist-header {
+            position: relative;
+            min-height: 400px;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.3), var(--background));
+        }
+
+        .artist-cover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .artist-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.7);
+        }
+
+        .artist-info {
+            padding: var(--spacing-lg);
+            display: flex;
+            align-items: flex-end;
+            min-height: 400px;
+            gap: var(--spacing-lg);
+        }
+
+        .artist-image {
+            width: 240px;
+            height: 240px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid var(--primary-color);
+            flex-shrink: 0;
+            box-shadow: 0 4px 60px rgba(0,0,0,0.5);
+        }
+
+        .artist-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .artist-details {
+            flex-grow: 1;
+        }
+
+        .artist-name {
+            font-size: 5rem;
+            font-weight: 700;
+            margin-bottom: var(--spacing-xs);
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .monthly-listeners {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .social-links {
+            display: flex;
+            gap: var(--spacing-sm);
+        }
+
+        .social-link {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--surface);
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .social-link:hover {
+            background: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        /* Artist Bio Section */
+        .artist-bio {
+            padding: var(--spacing-lg);
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* Popular Songs Section */
+        .popular-songs {
+            padding: var(--spacing-lg);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: var(--spacing-lg);
+            color: var(--text-primary);
+        }
+
+        .songs-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-xs);
+        }
+
+        .song-item {
+            display: flex;
+            align-items: center;
+            padding: var(--spacing-sm);
+            background: var(--surface);
+            border-radius: 4px;
+            transition: var(--transition);
+        }
+
+        .song-item:hover {
+            background: var(--surface-light);
+        }
+
+        .song-info {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+            flex: 1;
+        }
+
+        .song-number {
+            width: 24px;
+            color: var(--text-secondary);
+            text-align: right;
+        }
+
+        .song-image {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .song-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .play-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            border: none;
+            color: var(--text-primary);
+            cursor: pointer;
+            opacity: 0;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .song-item:hover .play-btn {
+            opacity: 1;
+        }
+
+        .song-details {
+            flex: 1;
+        }
+
+        .song-title {
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+
+        .song-artist {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .song-duration {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Mini Player */
+        .mini-player {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--surface);
+            padding: var(--spacing-sm);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+            transform: translateY(100%);
+            transition: var(--transition);
+        }
+
+        .mini-player.active {
+            transform: translateY(0);
+        }
+
+        .now-playing {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            min-width: 180px;
+        }
+
+        .now-playing img {
+            width: 56px;
+            height: 56px;
+            border-radius: 4px;
+            object-fit: cover;
+        }
+
+        .now-playing-info h4 {
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+        }
+
+        .now-playing-info p {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .player-controls {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+
+        .player-controls button {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.8rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .player-controls button:hover {
+            color: var(--primary-color);
+        }
+
+        .progress-container {
+            flex: 1;
+            max-width: 600px;
+            margin: 0 var(--spacing-lg);
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+
+        .progress-bar-container {
+            flex: 1;
+            height: 4px;
+            background: var(--surface-light);
+            border-radius: 2px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-bar-fill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: var(--primary-color);
+            width: 0;
+            transition: width 0.1s linear;
+        }
+
+        .current-time,
+        .total-duration {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            min-width: 40px;
+        }
+
+        .volume-control {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            min-width: 150px;
+        }
+
+        .volume-control button {
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        #volumeSlider {
+            width: 100px;
+            height: 4px;
+            -webkit-appearance: none;
+            background: var(--surface-light);
+            border-radius: 2px;
+            outline: none;
+        }
+
+        #volumeSlider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 12px;
+            height: 12px;
+            background: var(--text-primary);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        /* Toast Message */
+        #toast {
+            position: fixed;
+            bottom: 100px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: var(--surface);
+            color: var(--text-primary);
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: 4px;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        #toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .artist-info {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: var(--spacing-md);
+            }
+
+            .artist-image {
+                width: 180px;
+                height: 180px;
+            }
+
+            .artist-name {
+                font-size: 3rem;
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+
+            .mini-player {
+                flex-wrap: wrap;
+                gap: var(--spacing-sm);
+            }
+
+            .progress-container {
+                order: -1;
+                width: 100%;
+                margin: var(--spacing-xs) 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .artist-header {
+                min-height: 300px;
+            }
+
+            .artist-image {
+                width: 150px;
+                height: 150px;
+            }
+
+            .artist-name {
+                font-size: 2rem;
+            }
+
+            .song-info {
+                gap: var(--spacing-sm);
+            }
+
+            .now-playing {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .volume-control {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Artist Profile Section -->
+    <div class="artist-profile">
+        <div class="artist-header">
+            <div class="artist-cover">
+                <img id="artistCover" src="" alt="Artist Cover">
+            </div>
+            <div class="artist-info">
+                <div class="artist-image">
+                    <img id="artistImage" src="" alt="Artist Image">
+                </div>
+                <div class="artist-details">
+                    <h1 id="artistName" class="artist-name"></h1>
+                    <p class="monthly-listeners">Monthly Listeners: <span id="monthlyListeners"></span></p>
+                    <div class="social-links">
+                        <a id="spotifyLink" href="#" class="social-link" target="_blank">
+                            <i class='bx bxl-spotify'></i>
+                        </a>
+                        <a id="instagramLink" href="#" class="social-link" target="_blank">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a id="twitterLink" href="#" class="social-link" target="_blank">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="artist-bio" id="artistBio"></div>
+
+        <div class="popular-songs">
+            <h2 class="section-title">Popular Songs</h2>
+            <div class="songs-list" id="artistSongs"></div>
+        </div>
+    </div>
+
+    <!-- Mini Player -->
+    <div class="mini-player" id="miniPlayer">
+        <div class="now-playing">
+            <img id="nowPlayingImg" src="" alt="Now Playing">
+            <div class="now-playing-info">
+                <h4 id="nowPlayingTitle"></h4>
+                <p id="nowPlayingArtist"></p>
+            </div>
+        </div>
+        
+        <div class="player-controls">
+            <button id="prevBtn"><i class='bx bx-skip-previous'></i></button>
+            <button id="playPauseBtn"><i class='bx bx-play'></i></button>
+            <button id="nextBtn"><i class='bx bx-skip-next'></i></button>
+        </div>
+
+        <div class="progress-container">
+            <span class="current-time">0:00</span>
+            <div class="progress-bar-container">
+                <div class="progress-bar">
+                    <div class="progress-bar-fill"></div>
+                </div>
+            </div>
+            <span class="total-duration">0:00</span>
+        </div>
+
+        <div class="volume-control">
+            <button id="volumeBtn"><i class='bx bx-volume-full'></i></button>
+            <input type="range" id="volumeSlider" min="0" max="100" value="100">
+        </div>
+    </div>
+
+    <audio id="audioElement"></audio>
+    <div id="toast"></div>
+
+    <script>
+        // All previous styles and HTML remain exactly the same until the JavaScript part
+// Only adding/modifying the control logic
+
+const dusPopup = document.createElement('div');
+dusPopup.className = 'dus-popup-overlay';
+dusPopup.innerHTML = `
+<div class="dus-popup-container">
+    <div class="dus-popup-content">
+        <div class="dus-logo-container">
+            <div class="dus-logo">
+                <i class='bx bxs-music'></i>
+            </div>
+        </div>
+        <h2>Premium Access Required</h2>
+        <div class="dus-divider"></div>
+        <p>You've reached the free usage limit. Please log in to continue listening to our music collection.</p>
+        <form id="dusLoginForm">
+            <div class="dus-input-group">
+                <div class="dus-input-wrapper">
+                    <i class='bx bx-user'></i>
+                    <input type="text" id="dusUsername" placeholder="Enter your premium username" required>
+                </div>
+            </div>
+            <div class="dus-input-group">
+                <div class="dus-input-wrapper">
+                    <i class='bx bx-lock-alt'></i>
+                    <input type="password" id="dusPassword" placeholder="Enter your premium password" required>
+                </div>
+            </div>
+            <button type="submit" id="dusLoginBtn">
+                <span>Continue Listening</span>
+                <i class='bx bx-right-arrow-alt'></i>
+            </button>
+        </form>
+        <div class="dus-contact-admin">
+            <p>Don't have premium access?</p>
+            <a href="https://instagram.com/your-instagram" target="_blank" class="dus-instagram-link">
+                <i class='bx bxl-instagram'></i>
+                <span>Contact Admin</span>
+            </a>
+        </div>
+    </div>
+</div>
+`;
+
+const dusStyles = `
+:root {
+    --primary-bg: #f5f5f5;
+    --secondary-bg: #ffffff;
+    --primary-text: #1a1a1a;
+    --secondary-text: #666666;
+    --accent-color: #ff6b2b;
+    --accent-hover: #ff8f5d;
+    --neumorph-light: rgba(255, 255, 255, 1);
+    --neumorph-dark: rgba(0, 0, 0, 0.1);
+    --shadow-large: 20px 20px 60px #d1d1d1, -20px -20px 60px #ffffff;
+    --shadow-small: 5px 5px 15px #d1d1d1, -5px -5px 15px #ffffff;
+    --gradient-bg: linear-gradient(145deg, #ffffff, #f0f0f0);
+}
+
+.dus-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 26, 26, 0.98);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    backdrop-filter: blur(10px);
+}
+
+.dus-popup-container {
+    background: var(--secondary-bg);
+    padding: 3rem;
+    border-radius: 24px;
+    box-shadow: var(--shadow-large);
+    max-width: 480px;
+    width: 90%;
+    transform: scale(0.9);
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dus-popup-overlay.active .dus-popup-container {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.dus-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.dus-logo {
+    width: 80px;
+    height: 80px;
+    background: var(--gradient-bg);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-small);
+}
+
+.dus-logo i {
+    color: var(--accent-color);
+    font-size: 2.5rem;
+}
+
+.dus-popup-content h2 {
+    color: var(--primary-text);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.dus-divider {
+    width: 60px;
+    height: 4px;
+    background: var(--accent-color);
+    margin: 1.2rem auto;
+    border-radius: 2px;
+}
+
+.dus-popup-content p {
+    color: var(--secondary-text);
+    margin-bottom: 2rem;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+.dus-input-wrapper {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.dus-input-wrapper i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--secondary-text);
+    font-size: 1.2rem;
+}
+
+.dus-input-wrapper input {
+    width: 100%;
+    padding: 15px 15px 15px 45px;
+    border: 2px solid var(--primary-bg);
+    background: var(--primary-bg);
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    color: var(--primary-text);
+}
+
+.dus-input-wrapper input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    background: var(--secondary-bg);
+}
+
+.dus-input-wrapper input::placeholder {
+    color: #999;
+}
+
+#dusLoginBtn {
+    width: 100%;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+#dusLoginBtn i {
+    font-size: 1.4rem;
+    transition: transform 0.3s ease;
+}
+
+#dusLoginBtn:hover {
+    background: var(--accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(255, 107, 43, 0.4);
+}
+
+#dusLoginBtn:hover i {
+    transform: translateX(5px);
+}
+
+.dus-contact-admin {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.dus-contact-admin p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.dus-instagram-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.dus-instagram-link i {
+    font-size: 1.4rem;
+}
+
+.dus-instagram-link:hover {
+    background: var(--primary-bg);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .dus-popup-container {
+        width: 95%;
+        padding: 2rem;
+    }
+    
+    .dus-popup-content h2 {
+        font-size: 1.6rem;
+    }
+    
+    .dus-logo {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+`;
+
+const dusStyleSheet = document.createElement('style');
+dusStyleSheet.textContent = dusStyles;
+document.head.appendChild(dusStyleSheet);
+document.body.appendChild(dusPopup);
+
+// Function to handle music pause
+const pauseMusic = () => {
+    const audioElements = document.querySelectorAll('audio');
+    audioElements.forEach(audio => {
+        if (!audio.paused) {
+            audio.pause();
+            audio.dataset.wasPlaying = 'true';
+        }
+    });
+};
+
+// Function to resume music
+const resumeMusic = () => {
+    const audioElements = document.querySelectorAll('audio');
+    audioElements.forEach(audio => {
+        if (audio.dataset.wasPlaying === 'true') {
+            audio.play();
+            audio.dataset.wasPlaying = 'false';
+        }
+    });
+};
+
+// Check session status
+const checkSessionStatus = () => {
+    // Check for permanent access
+    if (localStorage.getItem('dusPermanentAccess') === 'true') {
+        return;
+    }
+
+    // Check for temporary session
+    const tempSession = sessionStorage.getItem('dusTemporaryAccess');
+    const sessionExpiry = sessionStorage.getItem('dusSessionExpiry');
+
+    if (!tempSession || (sessionExpiry && Date.now() > parseInt(sessionExpiry))) {
+        showPopup();
+    }
+};
+
+// Show popup function
+const showPopup = () => {
+    pauseMusic();
+    dusPopup.style.display = 'flex';
+    requestAnimationFrame(() => {
+        dusPopup.classList.add('active');
+    });
+};
+
+// Initialize popup functionality
+const initDusPopup = () => {
+    if (!localStorage.getItem('dusPermanentAccess')) {
+        // Show popup after 1 minute if no permanent access
+        setTimeout(() => {
+            showPopup();
+            // Set initial session state
+            sessionStorage.setItem('dusTemporaryAccess', 'false');
+        }, 60000);
+    }
+};
+
+document.getElementById('dusLoginForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const username = document.getElementById('dusUsername').value;
+    const password = document.getElementById('dusPassword').value;
+
+    if (username === 'user' && password === 'user123') {
+        dusPopup.classList.remove('active');
+        setTimeout(() => {
+            dusPopup.style.display = 'none';
+            resumeMusic();
+        }, 300);
+
+        // Set temporary session
+        sessionStorage.setItem('dusTemporaryAccess', 'true');
+        sessionStorage.setItem('dusSessionExpiry', Date.now() + 90000); // 1.5 minutes
+
+        // Show again after 1.5 minutes
+        setTimeout(() => {
+            if (!localStorage.getItem('dusPermanentAccess')) {
+                sessionStorage.setItem('dusTemporaryAccess', 'false');
+                showPopup();
+            }
+        }, 90000);
+    } else if (username.toLowerCase() === 'dusmamud' && password === 'dus123') {
+        // Set permanent access
+        localStorage.setItem('dusPermanentAccess', 'true');
+        dusPopup.classList.remove('active');
+        setTimeout(() => {
+            dusPopup.style.display = 'none';
+            resumeMusic();
+        }, 300);
+    } else {
+        const form = document.getElementById('dusLoginForm');
+        form.style.animation = 'shake 0.5s ease-in-out';
+        setTimeout(() => {
+            form.style.animation = '';
+        }, 500);
+        alert('Invalid credentials! Please try again.');
+    }
+});
+
+// Check session status on page load
+document.addEventListener('DOMContentLoaded', () => {
+    checkSessionStatus();
+});
+
+// Initialize the popup
+initDusPopup();
+
+// Add event listener for visibility change
+document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') {
+        checkSessionStatus();
+    }
+});
+    </script>
+    <script src="artist.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "The Weeknd",
+      "profilePic": "artist/the-weeknd.jpg",
+      "coverArt": "artist/the-weeknd-cover-photo.jpg",
+      "bio": "Abel Makkonen Tesfaye, known professionally as The Weeknd...",
+      "monthly_listeners": "85.5M",
+      "socialLinks": {
+        "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ",
+        "instagram": "https://instagram.com/theweeknd",
+        "twitter": "https://twitter.com/theweeknd"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Arijit Singh",
+      "profilePic": "artist/arijit-singh.jpg",
+      "coverArt": "artist/arijit-singh-cover.jpg",
+      "bio": "Arijit Singh is an Indian singer and music composer...",
+      "monthly_listeners": "40M",
+      "socialLinks": {
+        "spotify": "https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw",
+        "instagram": "https://instagram.com/arijitsingh",
+        "twitter": "https://twitter.com/arijitsingh"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Zubeen Garg",
+      "profilePic": "artist/zubeen-garg.jpg",
+      "coverArt": "artist/zubeen-garg-cover-photo.jpg",
+      "bio": "Zubeen Garg is an Indian playback singer, performer, composer...",
+      "monthly_listeners": "10M",
+      "socialLinks": {
+        "spotify": "https://open.spotify.com/artist/3XlPUzMEVjATkztiAsTg4i",
+        "instagram": "https://instagram.com/zubeengarg",
+        "twitter": "https://twitter.com/zubeengarg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Zayn Malik",
+      "profilePic": "artist/zayn-malik.jpg",
+      "coverArt": "artist/zayn-malik-cover-photo.jpg",
+      "bio": "Zain Javadd Malik, known mononymously as Zayn, is an English singer...",
+      "monthly_listeners": "28M",
+      "socialLinks": {
+        "spotify": "https://open.spotify.com/artist/5ZsFI1h6hIdQRw2ti0hz81",
+        "instagram": "https://instagram.com/zayn",
+        "twitter": "https://twitter.com/zaynmalik"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Shreya Ghoshal",
+      "profilePic": "artist/shreya-ghoshal.jpg",
+      "coverArt": "artist/shreya-ghoshal-cover-photo.jpg",
+      "bio": "Shreya Ghoshal is an Indian playback singer. She has received four National Film Awards...",
+      "monthly_listeners": "35M",
+      "socialLinks": {
+        "spotify": "https://open.spotify.com/artist/3fJ60AcIgLxEt6.6NG0Akx",
+        "instagram": "https://instagram.com/shreyaghoshal",
+        "twitter": "https://twitter.com/shreyaghoshal"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Rahat Fateh Ali Khan",
+      "profilePic": "artist/rahat-fateh-ali-khan.jpg",
+      "coverArt": "artist/rahat-fateh-ali-khan-cover-photo.jpg",
+      "bio": "Rahat Fateh Ali Khan is a Pakistani singer, primarily of Qawwali, a devotional music...",
+      "monthly_listeners": "20M",
+      "socialLinks": {
+        "spotify": "https://open.spotify.com/artist/5lFE0SoLwzt8e8JqWbdFed",
+        "instagram": "https://instagram.com/officialrfak",
+        "twitter": "https://twitter.com/RFAKWorld"
+      }
+    },
+    {
+      "id": 7,
+      "name": "KK",
+      "profilePic": "artist/kk.jpg",
+      "coverArt": "artist/kk-cover-photo.jpg",
+      "bio": "Krishnakumar Kunnath, popularly known as KK, is an Indian playback singer...",
+      "monthly_listeners": "15M",
+      "socialLinks": {
+        "spotify": "https://open.spotify.com/artist/5fz0kP3N0NDs49v8aTx8F6",
+        "instagram": "https://instagram.com/kk_live_now",
+        "twitter": "https://twitter.com/KayKayOnline"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Darshan Raval",
+      "profilePic": "artist/darshan-raval.jpg",
+      "coverArt": "artist/darshan-raval-cover-photo.jpg",
+      "bio": "Darshan Raval is an Indian singer, composer, and actor...",
+      "monthly_listeners": "30M",
+      "socialLinks": {
+        "spotify": "https://open.spotify.com/artist/68ulKEYrrx2ECdoW6s5g8F",
+        "instagram": "https://instagram.com/darshanravaldz",
+        "twitter": "https://twitter.com/DarshanRavalDZ"
+      }
+    }
+  ]
+}

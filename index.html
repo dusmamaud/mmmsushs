@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO Music - Your Personal Music Player</title>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <i class='bx bxs-music logo-icon'></i>
+            <h1>XO Music</h1>
+        </div>
+        <div class="header-controls">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class='bx bx-moon'></i>
+            </button>
+            <button class="profile-btn" id="profileBtn" aria-label="User profile">
+                <i class='bx bxs-user-circle'></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Featured Artists Section -->
+        <section class="featured-artists">
+            <h2 class="section-title">Featured Artists</h2>
+            <div class="artists-grid" id="artistsGrid">
+                <!-- Initial 4 artists will be loaded here -->
+            </div>
+            <button class="load-more-btn" id="loadMoreArtists">
+                <span>More Artists</span>
+                <i class='bx bx-chevron-down'></i>
+            </button>
+        </section>
+
+        <!-- Popular Songs Section -->
+        <section class="popular-songs">
+            <h2 class="section-title">Popular Songs</h2>
+            <div class="songs-container" id="songsContainer">
+                <!-- 20 songs will be loaded here -->
+            </div>
+            <button class="load-more-song" id="loadMoreSongs">
+                <span>Load More</span>
+                <i class='bx bx-chevron-down'></i>
+            </button>
+        </section>
+
+        <!-- Song Card Template -->
+        <template id="songCardTemplate">
+            <div class="song-card">
+                <div class="song-image">
+                    <img src="" alt="">
+                    <button class="play-btn">
+                        <i class='bx bx-play'></i>
+                    </button>
+                </div>
+                <div class="song-info">
+                    <h3 class="song-title"></h3>
+                    <p class="song-artist"></p>
+                    <span class="song-duration"></span>
+                </div>
+            </div>
+        </template>
+
+        <!-- Artist Card Template -->
+        <template id="artistCardTemplate">
+            <a href="" class="artist-card">
+                <div class="artist-image-container">
+                    <img src="" alt="" class="artist-image">
+                </div>
+                <h3 class="artist-name"></h3>
+            </a>
+        </template>
+    </main>
+
+    <!-- Mini Player -->
+    <div class="mini-player" id="miniPlayer">
+        <div class="mini-player-left">
+            <div class="now-playing-img">
+                <img src="https://placehold.co/300x300" alt="Now Playing">
+            </div>
+            <div class="now-playing-info">
+                <h4 class="now-playing-title"></h4>
+                <p class="now-playing-artist"></p>
+            </div>
+        </div>
+
+        <div class="mini-player-center">
+            <div class="player-controls">
+                <button class="control-btn shuffle-btn" id="shuffleBtn" aria-label="Shuffle">
+                    <i class='bx bx-shuffle'></i>
+                </button>
+                <button class="control-btn prev-btn" id="prevBtn" aria-label="Previous">
+                    <i class='bx bx-skip-previous'></i>
+                </button>
+                <button class="control-btn play-pause-btn" id="playPauseBtn" aria-label="Play/Pause">
+                    <i class='bx bx-play'></i>
+                </button>
+                <button class="control-btn next-btn" id="nextBtn" aria-label="Next">
+                    <i class='bx bx-skip-next'></i>
+                </button>
+                <button class="control-btn repeat-btn" id="repeatBtn" aria-label="Repeat">
+                    <i class='bx bx-repeat'></i>
+                </button>
+            </div>
+            <div class="progress-container">
+              <span class="current-time">0:00</span>
+              <div class="progress-bar-container">
+                  <div class="progress-bar">
+                      <div class="progress-bar-fill"></div>
+                  </div>
+              </div>
+              <span class="total-duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="mini-player-right">
+            <div class="volume-control">
+                <button class="volume-btn" id="volumeBtn" aria-label="Volume">
+                    <i class='bx bx-volume-full'></i>
+                </button>
+                <div class="volume-slider-container">
+                    <input 
+                        type="range" 
+                        class="volume-slider" 
+                        id="volumeSlider" 
+                        min="0" 
+                        max="100" 
+                        value="100"
+                        aria-label="Volume control"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="audioElement"></audio>
+
+    <!-- Notification Toast -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1805 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Timeless",
+      "artist": "The Weeknd, Playboi Carti",
+      "artistId": 1,
+      "coverArt": "cover/timeless.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142297/timeless_ofo99x.mp3",
+      "duration": 100
+    },
+    {
+      "id": 2,
+      "title": "Die For You",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "coverArt": "cover/save-your-tears.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142297/die-for-you-the-weeknd_eqihnh.mp4",
+      "duration": 1
+    },
+    {
+      "id": 3,
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "coverArt": "cover/blinding-lights.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142336/blinding-lights-the-weeknd_vay4ew.mp4",
+      "duration": 100
+    },
+    {
+      "id": 4,
+      "title": "Starboy",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "coverArt": "cover/starboy.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142288/starboy-the-weeknd_gtprnm.mp4",
+      "duration": 100
+    },
+    {
+      "id": 5,
+      "title": "Call Out My Name",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "coverArt": "cover/call-out-my-name.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142235/call-out-my-name_krnoad.mp3",
+      "duration": 100
+    },
+    {
+      "id": 6,
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga, Bruno Mars",
+      "artistId": 2,
+      "coverArt": "cover/die-with-a-smile.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141954/die-with-a-smile_f62exb.mp3",
+      "duration": 100
+    },
+    {
+      "id": 7,
+      "title": "Popular",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "coverArt": "cover/the-idol.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142293/popular-the-weeknd-madonna_xr51lp.mp4",
+      "duration": 100
+    },
+    {
+      "id": 8,
+      "title": "After Hours",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "coverArt": "cover/after-hours.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142324/after-hours-the-weeknd_aei2kw.mp4",
+      "duration": 100
+    },
+    {
+      "id": 9,
+      "title": "Let Me Love You",
+      "artist": "DJ Sanke, Justin Bieber",
+      "artistId": 3,
+      "coverArt": "cover/let-me-love-you.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142055/let-me-love-you_yb3epa.mp3",
+      "duration": 100
+    },
+    {
+      "id": 10,
+      "title": "Reminder",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "coverArt": "cover/starboy.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142234/reminder-the-weeknd_ids9lx.mp4",
+      "duration": 100
+    },
+    {
+      "id": 11,
+      "title": "One Of The Girls",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "coverArt": "cover/the-idol.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142360/one-of-the-girls-the-weeknd-jennie-lily-rose-depp_rcrxnt.mp4",
+      "duration": 100
+    },
+    {
+      "id": 12,
+      "title": "Attention",
+      "artist": "Charlie Puth",
+      "artistId": 4,
+      "coverArt": "cover/attention.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142001/attention_b13seq.mp3",
+      "duration": 100
+    },
+    {
+      "id": 23,
+      "title": "Alibi",
+      "artist": "Svdaliza, Pabllo Vittar, Yseult",
+      "artistId": 13,
+      "coverArt": "cover/alibi.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142043/alibi_t0wlcs.mp3",
+      "duration": 100
+    },
+    {
+      "id": 13,
+      "title": "Espresso",
+      "artist": "Sabrina Carpenter",
+      "artistId": 5,
+      "coverArt": "cover/espresso.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141968/espresso_bcjeyb.mp3",
+      "duration": 100
+    },
+    {
+      "id": 14,
+      "title": "Him & I",
+      "artist": "G-Eazy, Halsey",
+      "artistId": 5,
+      "coverArt": "cover/him-i.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142017/Him-I-with-Halsey_lzam0p.mp3",
+      "duration": 100
+    },
+    {
+      "id": 15,
+      "title": "Unforgettable",
+      "artist": "French Montana, Swae Lee",
+      "artistId": 6,
+      "coverArt": "cover/unforgettable.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141971/unforgettable_q6duvv.mp3",
+      "duration": 100
+    },
+    {
+      "id": 16,
+      "title": "No Lie",
+      "artist": "Sean Paul, Dua Lipa",
+      "artistId": 7,
+      "coverArt": "cover/no-lie.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141938/no-lie_rudt52.mp3",
+      "duration": 100
+    },
+    {
+      "id": 17,
+      "title": "I Wanna Be Yours",
+      "artist": "Arctic Monkeys",
+      "artistId": 8,
+      "coverArt": "cover/i-wanna-be-yours.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142055/i-wanna-be-yours_lbizvw.mp3",
+      "duration": 100
+    },
+    {
+      "id": 18,
+      "title": "Summertime Sadness",
+      "artist": "Lana Del Rey",
+      "artistId": 9,
+      "coverArt": "cover/summertime-sadness.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141981/Summertime-Sadness_sjtqcr.mp3",
+      "duration": 100
+    },
+    {
+      "id": 19,
+      "title": "Escapism",
+      "artist": "RAYE, 070 Shake",
+      "artistId": 10,
+      "coverArt": "cover/Escapism.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141952/Escapism_qdf1wl.mp3",
+      "duration": 100
+    },
+    {
+      "id": 20,
+      "title": "Greedy",
+      "artist": "Tate McRae",
+      "artistId": 21,
+      "coverArt": "cover/greedy.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142001/attention_b13seq.mp3",
+      "duration": 100
+    },
+    {
+      "id": 21,
+      "title": "Die For You (RIMIX)",
+      "artist": "The Weeknd, Ariana Grande",
+      "artistId": 1,
+      "coverArt": "cover/die-for-you-with-ariana-grande.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142043/die-for-you-with-ariana-grande_rgg2lx.mp3",
+      "duration": 100
+    },
+    {
+      "id": 22,
+      "title": "Dusk Till Dawn",
+      "artist": "ZAYN, Sia",
+      "artistId": 12,
+      "coverArt": "cover/dusk-till-dawn.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141971/unforgettable_q6duvv.mp3",
+      "duration": 100
+    },
+    
+    {
+      "id": 24,
+      "title": "APT.",
+      "artist": "Rosé, Bruno Mars",
+      "artistId": 14,
+      "coverArt": "cover/apt.jpg",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 25,
+      "title": "Diet Mountain Dew",
+      "artist": "Lana Del Rey",
+      "artistId": 9,
+      "coverArt": "cover/diet-mountain-dew.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141936/diet-mountain-dew_bslyks.mp3",
+      "duration": 100
+    },
+    {
+      "id": 26,
+      "title": "By By By",
+      "artist": "XO Music",
+      "artistId": 15,
+      "coverArt": "cover/bye-bye-bye.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142024/bye-bye-bye_gw5uwn.mp3",
+      "duration": 100
+    },
+    {
+      "id": 27,
+      "title": "Sigma Boy",
+      "artist": "Betsy, Maria lonkovskaia",
+      "artistId": 16,
+      "coverArt": "cover/sigma-boy.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142248/sigma-boy_kqd5co.mp3",
+      "duration": 100
+    },
+    {
+      "id": 28,
+      "title": "3:15 (Breathe)",
+      "artist": "Russ",
+      "artistId": 17,
+      "coverArt": "cover/315-breathe.jpg",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 29,
+      "title": "If we Being Real",
+      "artist": "Yeat",
+      "artistId": 20,
+      "coverArt": "cover/if-we-being-ral.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142042/if-we-being-ral_ke33bq.mp3",
+      "duration": 100
+    },
+    {
+      "id": 30,
+      "title": "FE!N",
+      "artist": "Travis Scott, Playboi Carti",
+      "artistId": 19,
+      "coverArt": "cover/fien.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141980/fien.pm3_c8356y.mp3",
+      "duration": 100
+    },
+    {
+      "id": 31,
+      "title": "Papi",
+      "artist": "XO Music",
+      "artistId": 15,
+      "coverArt": "cover/papi-bhabi.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141939/papi-bhabi_wqhbeb.mp3",
+      "duration": 100
+    },
+    {
+      "id": 32,
+      "title": "X SIDE",
+      "artist": "Dus Mamud",
+      "artistId": 18,
+      "coverArt": "cover/X-SLIDE-Slowed-2KE.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141980/x-slide-slowed_vshnzb.mp3",
+      "duration": 100
+    },
+    {
+      "id": 33,
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
+      "artistId": 1,
+      "coverArt": "cover/save-your-tears.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142250/Save_Your_Tears_l1cwoi.mp3",
+      "duration": 100
+    },
+    {
+      "id": 34,
+      "title": "JESUS Slowed",
+      "artist": "Dus Mamud",
+      "artistId": 18,
+      "coverArt": "cover/jesus-slowed.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142052/jesus-slowed_fvbm97.mp3",
+      "duration": 100
+    },
+    {
+      "id": 35,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 36,
+      "title": "NEXT!",
+      "artist": "Dus Mamud",
+      "artistId": 18,
+      "coverArt": "cover/next-slowed.jpg",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141934/next-slowed_wlngqy.mp3",
+      "duration": 100
+    },
+    {
+      "id": 37,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 38,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 39,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 40,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 41,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 42,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 43,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 44,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 45,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 46,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 47,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 48,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 49,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 50,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 51,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 52,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 53,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 54,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 55,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 56,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 57,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 58,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 59,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 60,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 61,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 62,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 63,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 64,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 65,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 66,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 67,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 68,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 69,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 70,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 71,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 72,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 73,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 74,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 75,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 76,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 77,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 78,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 79,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 80,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 81,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 82,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 83,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 84,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 85,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 86,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 87,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 88,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 89,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 90,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 91,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 92,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 93,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 94,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 95,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 96,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 97,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 98,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 99,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 100,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 101,
+      "title": "Teri Saanson Mein",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587425/Teri_Saanson_Mein_-_Karle_Pyaar_Karle_Arijit_Singh_jmdwh6.mp3",
+      "duration": 100
+    },
+    {
+      "id": 102,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 103,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 104,
+      "title": "Samjhawan",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587424/02_Samjhawan_-_Humpty_Sharma_Ki_Dulhania_popfhs.mp3",
+      "duration": 100
+    },
+    {
+      "id": 105,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 106,
+      "title": "Mareez E Ishq",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "03_Mareez_-_E_-_Ishq_Arijit_Singh_-_190Kbps_zq19k6",
+      "duration": 100
+    },
+    {
+      "id": 107,
+      "title": "Soch Na Sake",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587414/Soch_Na_Sake_Airlift_Arijit_Singh_190Kbps_veyuid.mp3",
+      "duration": 100
+    },
+    {
+      "id": 108,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 109,
+      "title": "Dil Cheez Tujhe Dedi",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587409/02_Dil_Cheez_Tujhe_Dedi_-_Airlift_Arijit_Singh_n_Ankit_Tiwari_190Kbps_qwg4bf.mp3",
+      "duration": 100
+    },
+    {
+      "id": 110,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 111,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 112,
+      "title": "Hai Dil Ye Mera",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587408/04_Hai_Dil_Ye_Mera_-_Hate_Story_2_PagalWorld_Arijit_Singh_-192Kbps_o0kitb.mp3",
+      "duration": 100
+    },
+    {
+      "id": 113,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 114,
+      "title": "Manwa Laage",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587402/02_Manwa_Laage_Happy_New_Year_-190Kbps_PagalWorld.com_ol6bas.mp3",
+      "duration": 100
+    },
+    {
+      "id": 115,
+      "title": "Shaayraana",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587400/Shaayraana_-_Holiday_PagalWorld.com_192Kbps_Original_obeimj.mp3",
+      "duration": 100
+    },
+    {
+      "id": 116,
+      "title": "Neki Ki Raah",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587396/neki-ki-raah-traffic-mithoon-n-arijit-singh_gprdnq.mp3",
+      "duration": 100
+    },
+    {
+      "id": 117,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 118,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 119,
+      "title": "Itni Si Baat Hain",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587393/02_Itni_Si_Baat_Hain_-_Azhar_Arijit_Singh_190Kbps_unc95i.mp3",
+      "duration": 100
+    },
+    {
+      "id": 120,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 121,
+      "title": "Teri Meri Kahaani",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587391/01_Teri_Meri_Kahaani_Gabbar_is_Back_Arijit_Singh_190Kbps_pzsipi.mp3",
+      "duration": 100
+    },
+    {
+      "id": 122,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 123,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 124,
+      "title": "Chal Wahan Jaate Hain",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587381/chal-wahan-jaate-hain-arijit-singh_gy4zo2.mp3",
+      "duration": 100
+    },
+    {
+      "id": 125,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 126,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 127,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 128,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 129,
+      "title": "Lo Maan Liya",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587367/02_Lo_Maan_Liya_-_Raaz_Reboot_Arijit_Singh_190Kbps_wqz3q6.mp3",
+      "duration": 100
+    },
+    {
+      "id": 130,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 131,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 132,
+      "title": "Wafa Ne  Bewafai",
+      "artist": "Arijit Singh",
+      "artistId": 11,
+      "coverArt": "none",
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587366/Wafa_Ne_Bewafai_-_Teraa_Surroor_Arijit_Singh_190Kbps_p6vd5c.mp3",
+      "duration": 100
+    },
+    {
+      "id": 133,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 134,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 135,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 136,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 137,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 138,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 139,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 140,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 141,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 142,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 143,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 144,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 145,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 146,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 147,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 148,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 149,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 150,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 151,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 152,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 153,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 154,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 155,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 156,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 157,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 158,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 159,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 160,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 161,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 162,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 163,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 164,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 165,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 166,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 167,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 168,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 169,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 170,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 171,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 172,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 173,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 174,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 175,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 176,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 177,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 178,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 179,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 180,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 181,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 182,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 183,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 184,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 185,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 186,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 187,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 188,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 189,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 190,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 191,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 192,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 193,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 194,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 195,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 196,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 197,
+      "title": "song",
+      "artist": "Arijit Singh",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 198,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 199,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    },
+    {
+      "id": 100,
+      "title": "song",
+      "artist": "name",
+      "artistId": 1,
+      "coverArt": "none",
+      "url": "none",
+      "duration": 100
+    }
+  ]
+}

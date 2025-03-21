@@ -1,0 +1,538 @@
+/* music-player.css */
+
+/* ========== Root Variables ========== */
+:root {
+  /* Colors */
+  --primary-color: #1DB954;
+  --text-color: #FFFFFF;
+  --text-color-light: rgba(255, 255, 255, 0.7);
+  --background-color: #121212;
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --overlay-color: rgba(0, 0, 0, 0.7);
+  
+  /* Typography */
+  --body-font: 'Inter', sans-serif;
+  --biggest-font-size: 2rem;
+  --h1-font-size: 1.75rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  
+  /* Animations */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* ========== Base Styles ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow: hidden;
+  height: 100vh;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* ========== Background Effects ========== */
+.background-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.bg-image {
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 110%;
+  height: 110%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(25px);
+  transform: scale(1.1);
+  transition: all var(--transition-slow);
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      var(--background-color) 100%
+  );
+}
+
+/* ========== Container Layout ========== */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* ========== Header Section ========== */
+.player-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.nav-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-color);
+  font-size: 1.5rem;
+  transition: all var(--transition-fast);
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.header-title {
+  font-size: var(--h3-font-size);
+  font-weight: 600;
+}
+
+/* ========== Artwork Section ========== */
+.artwork-section {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  margin-bottom: 2rem;
+}
+
+.artwork-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.album-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transition: all var(--transition-normal);
+}
+
+.artwork-disk {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #1a1a1a, #333);
+  transform: scale(0.95);
+  opacity: 0;
+  transition: all var(--transition-normal);
+}
+
+.disk-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15%;
+  height: 15%;
+  background: #000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #444;
+}
+
+/* Disk animation when playing */
+.is-playing .artwork-disk {
+  animation: rotate 20s linear infinite;
+  opacity: 1;
+}
+
+@keyframes rotate {
+  from {
+      transform: scale(0.95) rotate(0deg);
+  }
+  to {
+      transform: scale(0.95) rotate(360deg);
+  }
+}
+
+/* ========== Track Info Section ========== */
+.track-info {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.track-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.track-title {
+  font-size: var(--h2-font-size);
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.favorite-btn {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+  transition: all var(--transition-fast);
+}
+
+.favorite-btn.active {
+  color: #ff4081;
+}
+
+.track-artist {
+  color: var(--text-color-light);
+  font-size: var(--normal-font-size);
+  margin-bottom: 0.25rem;
+  text-decoration: none;
+}
+
+.track-album {
+  color: var(--text-color-light);
+  font-size: var(--small-font-size);
+}
+
+/* ========== Progress Section ========== */
+.progress-section {
+  margin-bottom: 2rem;
+}
+
+.time-info {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-color-light);
+  font-size: var(--small-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.progress-bar-wrapper {
+  position: relative;
+  height: 4px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 100%;
+  background: var(--surface-color);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-current {
+  height: 100%;
+  background: var(--primary-color);
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.progress-handle {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.progress-bar-wrapper:hover .progress-handle {
+  opacity: 1;
+}
+
+/* ========== Controls Section ========== */
+.controls-section {
+  margin-bottom: 2rem;
+}
+
+.controls-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.control-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  transition: all var(--transition-fast);
+}
+
+.control-btn:hover {
+  color: var(--primary-color);
+}
+
+.play-btn {
+  width: 60px;
+  height: 60px;
+  background: var(--primary-color);
+  font-size: 2rem;
+}
+
+.play-btn:hover {
+  transform: scale(1.1);
+  color: var(--text-color);
+}
+
+.control-btn.active {
+  color: var(--primary-color);
+}
+
+/* ========== Additional Controls ========== */
+.additional-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.volume-slider-wrapper {
+  width: 100px;
+  height: 4px;
+}
+
+.volume-slider {
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  background: var(--surface-color);
+  border-radius: 2px;
+  outline: none;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: var(--text-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.action-btn {
+  font-size: 1.25rem;
+  color: var(--text-color-light);
+  transition: color var(--transition-fast);
+}
+
+.action-btn:hover {
+  color: var(--text-color);
+}
+
+/* ========== Overlays ========== */
+.queue-overlay,
+.share-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--background-color);
+  border-radius: 1rem 1rem 0 0;
+  padding: 1.5rem;
+  transform: translateY(100%);
+  transition: transform var(--transition-normal);
+  z-index: 1000;
+}
+
+.queue-overlay.active,
+.share-menu.active {
+  transform: translateY(0);
+}
+
+.queue-header,
+.share-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.close-btn {
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+}
+
+/* ========== Queue List ========== */
+.queue-list {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.queue-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  transition: background var(--transition-fast);
+}
+
+.queue-item:hover {
+  background: var(--surface-color);
+}
+
+.queue-item.active {
+  background: var(--surface-color);
+  color: var(--primary-color);
+}
+
+/* ========== Share Options ========== */
+.share-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.share-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-color-light);
+}
+
+.share-option i {
+  font-size: 2rem;
+}
+
+/* ========== Toast Notifications ========== */
+.toast-container {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2000;
+}
+
+.toast {
+  background: var(--surface-color);
+  color: var(--text-color);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  animation: slideUp 0.3s ease forwards;
+}
+
+@keyframes slideUp {
+  from {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* ========== Responsive Design ========== */
+@media screen and (max-width: 576px) {
+  .container {
+      padding: 1rem;
+  }
+
+  .track-title {
+      font-size: var(--h3-font-size);
+  }
+
+  .play-btn {
+      width: 50px;
+      height: 50px;
+      font-size: 1.75rem;
+  }
+
+  .control-btn {
+      width: 35px;
+      height: 35px;
+      font-size: 1.25rem;
+  }
+
+  .share-options {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+      padding: 2rem;
+  }
+
+  .artwork-section {
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+      --biggest-font-size: 2.5rem;
+      --h1-font-size: 2rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+  }
+
+  .container {
+      max-width: 600px;
+  }
+}
