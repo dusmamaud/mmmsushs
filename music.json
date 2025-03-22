@@ -7,7 +7,7 @@
       "artistId": 1,
       "coverArt": "cover/timeless.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142297/timeless_ofo99x.mp3",
-      "duration": 100
+      "duration": 256
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "artistId": 1,
       "coverArt": "cover/save-your-tears.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142297/die-for-you-the-weeknd_eqihnh.mp4",
-      "duration": 1
+      "duration": 260
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "artistId": 1,
       "coverArt": "cover/blinding-lights.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142336/blinding-lights-the-weeknd_vay4ew.mp4",
-      "duration": 100
+      "duration": 200
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "artistId": 1,
       "coverArt": "cover/starboy.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142288/starboy-the-weeknd_gtprnm.mp4",
-      "duration": 100
+      "duration": 230
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "artistId": 1,
       "coverArt": "cover/call-out-my-name.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142235/call-out-my-name_krnoad.mp3",
-      "duration": 100
+      "duration": 288
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "artistId": 2,
       "coverArt": "cover/die-with-a-smile.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141954/die-with-a-smile_f62exb.mp3",
-      "duration": 100
+      "duration": 251
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "artistId": 1,
       "coverArt": "cover/the-idol.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142293/popular-the-weeknd-madonna_xr51lp.mp4",
-      "duration": 100
+      "duration": 215
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "artistId": 1,
       "coverArt": "cover/after-hours.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142324/after-hours-the-weeknd_aei2kw.mp4",
-      "duration": 100
+      "duration": 361
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "artistId": 3,
       "coverArt": "cover/let-me-love-you.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142055/let-me-love-you_yb3epa.mp3",
-      "duration": 100
+      "duration": 206
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "artistId": 1,
       "coverArt": "cover/starboy.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142234/reminder-the-weeknd_ids9lx.mp4",
-      "duration": 100
+      "duration": 218
     },
     {
       "id": 11,
@@ -97,7 +97,7 @@
       "artistId": 1,
       "coverArt": "cover/the-idol.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142360/one-of-the-girls-the-weeknd-jennie-lily-rose-depp_rcrxnt.mp4",
-      "duration": 100
+      "duration": 244
     },
     {
       "id": 12,
@@ -106,7 +106,7 @@
       "artistId": 4,
       "coverArt": "cover/attention.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142001/attention_b13seq.mp3",
-      "duration": 100
+      "duration": 231
     },
     {
       "id": 23,
@@ -115,7 +115,7 @@
       "artistId": 13,
       "coverArt": "cover/alibi.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142043/alibi_t0wlcs.mp3",
-      "duration": 100
+      "duration": 161
     },
     {
       "id": 13,
@@ -124,7 +124,7 @@
       "artistId": 5,
       "coverArt": "cover/espresso.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141968/espresso_bcjeyb.mp3",
-      "duration": 100
+      "duration": 175
     },
     {
       "id": 14,
@@ -133,7 +133,7 @@
       "artistId": 5,
       "coverArt": "cover/him-i.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142017/Him-I-with-Halsey_lzam0p.mp3",
-      "duration": 100
+      "duration": 268
     },
     {
       "id": 15,
@@ -142,7 +142,7 @@
       "artistId": 6,
       "coverArt": "cover/unforgettable.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141971/unforgettable_q6duvv.mp3",
-      "duration": 100
+      "duration": 286
     },
     {
       "id": 16,
@@ -151,7 +151,7 @@
       "artistId": 7,
       "coverArt": "cover/no-lie.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141938/no-lie_rudt52.mp3",
-      "duration": 100
+      "duration": 228
     },
     {
       "id": 17,
@@ -160,7 +160,16 @@
       "artistId": 8,
       "coverArt": "cover/i-wanna-be-yours.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142055/i-wanna-be-yours_lbizvw.mp3",
-      "duration": 100
+      "duration": 184
+    },
+    {
+      "id": 1777,
+      "title": "Broken Angel (Slowed & Reverb)",
+      "artist": "Arash",
+      "artistId": 22,
+      "coverArt": "https://xomindset.github.io/xomusiccover/covers/broken-angel.jpg",
+      "url": "https://dl.dropboxusercontent.com/scl/fi/5h8uumoxjsilci0yki5rc/broken-angel.mp3?rlkey=2dyaezn4ha0hgwdncq7u15tu5&st=k22uwceo",
+      "duration": 214
     },
     {
       "id": 18,
@@ -169,7 +178,7 @@
       "artistId": 9,
       "coverArt": "cover/summertime-sadness.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141981/Summertime-Sadness_sjtqcr.mp3",
-      "duration": 100
+      "duration": 264
     },
     {
       "id": 19,
@@ -178,7 +187,7 @@
       "artistId": 10,
       "coverArt": "cover/Escapism.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141952/Escapism_qdf1wl.mp3",
-      "duration": 100
+      "duration": 272
     },
     {
       "id": 20,
@@ -186,8 +195,8 @@
       "artist": "Tate McRae",
       "artistId": 21,
       "coverArt": "cover/greedy.jpg",
-      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142001/attention_b13seq.mp3",
-      "duration": 100
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141998/greedy_yhqtfo.mp3",
+      "duration": 133
     },
     {
       "id": 21,
@@ -196,7 +205,7 @@
       "artistId": 1,
       "coverArt": "cover/die-for-you-with-ariana-grande.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142043/die-for-you-with-ariana-grande_rgg2lx.mp3",
-      "duration": 100
+      "duration": 232
     },
     {
       "id": 22,
@@ -205,17 +214,17 @@
       "artistId": 12,
       "coverArt": "cover/dusk-till-dawn.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141971/unforgettable_q6duvv.mp3",
-      "duration": 100
+      "duration": 286
     },
-    
+
     {
       "id": 24,
       "title": "APT.",
       "artist": "Rosé, Bruno Mars",
       "artistId": 14,
       "coverArt": "cover/apt.jpg",
-      "url": "none",
-      "duration": 100
+      "url": "https://xomindset.github.io/xomusiccover/covers/apt.mp3",
+      "duration": 173
     },
     {
       "id": 25,
@@ -224,7 +233,7 @@
       "artistId": 9,
       "coverArt": "cover/diet-mountain-dew.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141936/diet-mountain-dew_bslyks.mp3",
-      "duration": 100
+      "duration": 223
     },
     {
       "id": 26,
@@ -233,7 +242,16 @@
       "artistId": 15,
       "coverArt": "cover/bye-bye-bye.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142024/bye-bye-bye_gw5uwn.mp3",
-      "duration": 100
+      "duration": 202
+    },
+    {
+      "id": 261001,
+      "title": "Criminal",
+      "artist": "Britney Spears",
+      "artistId": 23,
+      "coverArt": "https://xomindset.github.io/xomusiccover/covers/Criminal.jpg",
+      "url": "https://dl.dropboxusercontent.com/scl/fi/f5lt2kf2c5cu6wreile02/Criminal.mp3?rlkey=em5t9k690l1w9guzv7ctnha0i&st=k0zqda48",
+      "duration": 225
     },
     {
       "id": 27,
@@ -242,7 +260,7 @@
       "artistId": 16,
       "coverArt": "cover/sigma-boy.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142248/sigma-boy_kqd5co.mp3",
-      "duration": 100
+      "duration": 160
     },
     {
       "id": 28,
@@ -250,8 +268,8 @@
       "artist": "Russ",
       "artistId": 17,
       "coverArt": "cover/315-breathe.jpg",
-      "url": "none",
-      "duration": 100
+      "url": "https://xomindset.github.io/xomusiccover/hold/315-breathe.mp3",
+      "duration": 184
     },
     {
       "id": 29,
@@ -260,7 +278,7 @@
       "artistId": 20,
       "coverArt": "cover/if-we-being-ral.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142042/if-we-being-ral_ke33bq.mp3",
-      "duration": 100
+      "duration": 172
     },
     {
       "id": 30,
@@ -269,7 +287,7 @@
       "artistId": 19,
       "coverArt": "cover/fien.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141980/fien.pm3_c8356y.mp3",
-      "duration": 100
+      "duration": 191
     },
     {
       "id": 31,
@@ -278,7 +296,7 @@
       "artistId": 15,
       "coverArt": "cover/papi-bhabi.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141939/papi-bhabi_wqhbeb.mp3",
-      "duration": 100
+      "duration": 346
     },
     {
       "id": 32,
@@ -287,7 +305,7 @@
       "artistId": 18,
       "coverArt": "cover/X-SLIDE-Slowed-2KE.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141980/x-slide-slowed_vshnzb.mp3",
-      "duration": 100
+      "duration": 89
     },
     {
       "id": 33,
@@ -296,7 +314,7 @@
       "artistId": 1,
       "coverArt": "cover/save-your-tears.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142250/Save_Your_Tears_l1cwoi.mp3",
-      "duration": 100
+      "duration": 248
     },
     {
       "id": 34,
@@ -305,7 +323,7 @@
       "artistId": 18,
       "coverArt": "cover/jesus-slowed.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142052/jesus-slowed_fvbm97.mp3",
-      "duration": 100
+      "duration": 145
     },
     {
       "id": 35,
@@ -314,7 +332,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 36,
@@ -323,7 +341,7 @@
       "artistId": 18,
       "coverArt": "cover/next-slowed.jpg",
       "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742141934/next-slowed_wlngqy.mp3",
-      "duration": 100
+      "duration": 108
     },
     {
       "id": 37,
@@ -332,7 +350,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 38,
@@ -341,7 +359,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 39,
@@ -350,7 +368,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 40,
@@ -359,7 +377,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 41,
@@ -368,7 +386,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 42,
@@ -377,7 +395,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 43,
@@ -386,7 +404,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 44,
@@ -395,7 +413,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 45,
@@ -404,7 +422,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 46,
@@ -413,7 +431,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 47,
@@ -422,7 +440,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 48,
@@ -431,7 +449,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 49,
@@ -440,7 +458,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 50,
@@ -449,7 +467,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 51,
@@ -458,7 +476,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 52,
@@ -467,7 +485,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 53,
@@ -476,7 +494,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 54,
@@ -485,7 +503,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 55,
@@ -494,7 +512,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 56,
@@ -503,7 +521,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 57,
@@ -512,7 +530,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 58,
@@ -521,7 +539,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 59,
@@ -530,7 +548,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 60,
@@ -539,7 +557,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 61,
@@ -548,7 +566,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 62,
@@ -557,7 +575,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 63,
@@ -566,7 +584,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 64,
@@ -575,7 +593,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 65,
@@ -584,7 +602,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 66,
@@ -593,7 +611,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 67,
@@ -602,7 +620,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 68,
@@ -611,7 +629,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 69,
@@ -620,7 +638,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 70,
@@ -629,7 +647,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 71,
@@ -638,7 +656,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 72,
@@ -647,7 +665,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 73,
@@ -656,7 +674,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 74,
@@ -665,7 +683,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 75,
@@ -674,7 +692,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 76,
@@ -683,7 +701,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 77,
@@ -692,7 +710,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 78,
@@ -701,7 +719,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 79,
@@ -710,7 +728,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 80,
@@ -719,7 +737,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 81,
@@ -728,7 +746,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 82,
@@ -737,7 +755,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 83,
@@ -746,7 +764,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 84,
@@ -755,7 +773,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 85,
@@ -764,7 +782,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 86,
@@ -773,7 +791,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 87,
@@ -782,7 +800,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 88,
@@ -791,7 +809,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 89,
@@ -800,7 +818,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 90,
@@ -809,7 +827,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 91,
@@ -818,7 +836,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 92,
@@ -827,7 +845,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 93,
@@ -836,7 +854,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 94,
@@ -845,7 +863,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 95,
@@ -854,7 +872,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 96,
@@ -863,7 +881,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 97,
@@ -872,7 +890,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 98,
@@ -881,7 +899,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 99,
@@ -890,16 +908,16 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
-      "id": 100,
+      "id": 2,
       "title": "song",
       "artist": "name",
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 101,
@@ -908,7 +926,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587425/Teri_Saanson_Mein_-_Karle_Pyaar_Karle_Arijit_Singh_jmdwh6.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 102,
@@ -917,7 +935,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 103,
@@ -926,7 +944,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 104,
@@ -935,7 +953,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587424/02_Samjhawan_-_Humpty_Sharma_Ki_Dulhania_popfhs.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 105,
@@ -944,7 +962,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 106,
@@ -952,8 +970,8 @@
       "artist": "Arijit Singh",
       "artistId": 11,
       "coverArt": "none",
-      "url": "03_Mareez_-_E_-_Ishq_Arijit_Singh_-_190Kbps_zq19k6",
-      "duration": 100
+      "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587421/03_Mareez_-_E_-_Ishq_Arijit_Singh_-_190Kbps_zq19k6.mp3",
+      "duration": 2
     },
     {
       "id": 107,
@@ -962,7 +980,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587414/Soch_Na_Sake_Airlift_Arijit_Singh_190Kbps_veyuid.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 108,
@@ -971,7 +989,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 109,
@@ -980,7 +998,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587409/02_Dil_Cheez_Tujhe_Dedi_-_Airlift_Arijit_Singh_n_Ankit_Tiwari_190Kbps_qwg4bf.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 110,
@@ -989,7 +1007,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 111,
@@ -998,7 +1016,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 112,
@@ -1007,7 +1025,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587408/04_Hai_Dil_Ye_Mera_-_Hate_Story_2_PagalWorld_Arijit_Singh_-192Kbps_o0kitb.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 113,
@@ -1016,7 +1034,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 114,
@@ -1025,7 +1043,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587402/02_Manwa_Laage_Happy_New_Year_-190Kbps_PagalWorld.com_ol6bas.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 115,
@@ -1034,7 +1052,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587400/Shaayraana_-_Holiday_PagalWorld.com_192Kbps_Original_obeimj.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 116,
@@ -1043,7 +1061,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587396/neki-ki-raah-traffic-mithoon-n-arijit-singh_gprdnq.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 117,
@@ -1052,7 +1070,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 118,
@@ -1061,7 +1079,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 119,
@@ -1070,7 +1088,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587393/02_Itni_Si_Baat_Hain_-_Azhar_Arijit_Singh_190Kbps_unc95i.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 120,
@@ -1079,7 +1097,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 121,
@@ -1088,7 +1106,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587391/01_Teri_Meri_Kahaani_Gabbar_is_Back_Arijit_Singh_190Kbps_pzsipi.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 122,
@@ -1097,7 +1115,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 123,
@@ -1106,7 +1124,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 124,
@@ -1115,7 +1133,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587381/chal-wahan-jaate-hain-arijit-singh_gy4zo2.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 125,
@@ -1124,7 +1142,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 126,
@@ -1133,7 +1151,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 127,
@@ -1142,7 +1160,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 128,
@@ -1151,7 +1169,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 129,
@@ -1160,7 +1178,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587367/02_Lo_Maan_Liya_-_Raaz_Reboot_Arijit_Singh_190Kbps_wqz3q6.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 130,
@@ -1169,7 +1187,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 131,
@@ -1178,7 +1196,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 132,
@@ -1187,7 +1205,7 @@
       "artistId": 11,
       "coverArt": "none",
       "url": "https://res.cloudinary.com/dd9l6wjso/video/upload/v1742587366/Wafa_Ne_Bewafai_-_Teraa_Surroor_Arijit_Singh_190Kbps_p6vd5c.mp3",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 133,
@@ -1196,7 +1214,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 134,
@@ -1205,7 +1223,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 135,
@@ -1214,7 +1232,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 136,
@@ -1223,7 +1241,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 137,
@@ -1232,7 +1250,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 138,
@@ -1241,7 +1259,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 139,
@@ -1250,7 +1268,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 140,
@@ -1259,7 +1277,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 141,
@@ -1268,7 +1286,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 142,
@@ -1277,7 +1295,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 143,
@@ -1286,7 +1304,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 144,
@@ -1295,7 +1313,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 145,
@@ -1304,7 +1322,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 146,
@@ -1313,7 +1331,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 147,
@@ -1322,7 +1340,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 148,
@@ -1331,7 +1349,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 149,
@@ -1340,7 +1358,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 150,
@@ -1349,7 +1367,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 151,
@@ -1358,7 +1376,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 152,
@@ -1367,7 +1385,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 153,
@@ -1376,7 +1394,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 154,
@@ -1385,7 +1403,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 155,
@@ -1394,7 +1412,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 156,
@@ -1403,7 +1421,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 157,
@@ -1412,7 +1430,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 158,
@@ -1421,7 +1439,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 159,
@@ -1430,7 +1448,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 160,
@@ -1439,7 +1457,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 161,
@@ -1448,7 +1466,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 162,
@@ -1457,7 +1475,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 163,
@@ -1466,7 +1484,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 164,
@@ -1475,7 +1493,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 165,
@@ -1484,7 +1502,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 166,
@@ -1493,7 +1511,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 167,
@@ -1502,7 +1520,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 168,
@@ -1511,7 +1529,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 169,
@@ -1520,7 +1538,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 170,
@@ -1529,7 +1547,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 171,
@@ -1538,7 +1556,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 172,
@@ -1547,7 +1565,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 173,
@@ -1556,7 +1574,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 174,
@@ -1565,7 +1583,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 175,
@@ -1574,7 +1592,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 176,
@@ -1583,7 +1601,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 177,
@@ -1592,7 +1610,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 178,
@@ -1601,7 +1619,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 179,
@@ -1610,7 +1628,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 180,
@@ -1619,7 +1637,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 181,
@@ -1628,7 +1646,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 182,
@@ -1637,7 +1655,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 183,
@@ -1646,7 +1664,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 184,
@@ -1655,7 +1673,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 185,
@@ -1664,7 +1682,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 186,
@@ -1673,7 +1691,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 187,
@@ -1682,7 +1700,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 188,
@@ -1691,7 +1709,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 189,
@@ -1700,7 +1718,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 190,
@@ -1709,7 +1727,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 191,
@@ -1718,7 +1736,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 192,
@@ -1727,7 +1745,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 193,
@@ -1736,7 +1754,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 194,
@@ -1745,7 +1763,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 195,
@@ -1754,7 +1772,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 196,
@@ -1763,7 +1781,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 197,
@@ -1772,7 +1790,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 198,
@@ -1781,7 +1799,7 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
       "id": 199,
@@ -1790,16 +1808,16 @@
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     },
     {
-      "id": 100,
+      "id": 2,
       "title": "song",
       "artist": "name",
       "artistId": 1,
       "coverArt": "none",
       "url": "none",
-      "duration": 100
+      "duration": 2
     }
   ]
 }
