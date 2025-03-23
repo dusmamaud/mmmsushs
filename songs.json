@@ -1,0 +1,28 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Timeless",
+      "artist": "XO Music",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142297/timeless_ofo99x.mp3",
+      "cover": "cover/timeless.jpg",
+      "background": "cover/timeless.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Breathe",
+      "artist": "XO Music",
+      "url": "https://xomindset.github.io/xomusiccover/hold/315-breathe.mp3",
+      "cover": "cover/315-breathe.jpg",
+      "background": "cover/315-breathe.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Sigma Boy",
+      "artist": "XO Music",
+      "url": "https://res.cloudinary.com/db2ykutab/video/upload/v1742142248/sigma-boy_kqd5co.mp3",
+      "cover": "cover/sigma-boy.jpg",
+      "background": "cover/sigma-boy.jpg"
+    }
+  ]
+}
